@@ -1,0 +1,33 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    height: auto;
+    margin: 0;
+}
