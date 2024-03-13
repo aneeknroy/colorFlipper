@@ -27,11 +27,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const li = document.createElement('li');
         li.textContent = item;
         const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete';
+        deleteButton.classList.add('delete-button'); // Add this line to add the class
         deleteButton.addEventListener('click', function() {
             itemList.removeChild(li);
         });
         li.appendChild(deleteButton);
         itemList.appendChild(li);
     }   
-    
+
 });
