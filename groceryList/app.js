@@ -8,7 +8,7 @@
 // const task = document.querySelector('#task');
 // const btn = document.querySelectorAll('.btn')
 
-
+// dkd
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('groceryForm');
     const itemList = document.getElementById('itemList')
